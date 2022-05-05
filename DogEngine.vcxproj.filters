@@ -1,6 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Private\DEngine\Engine\IEngine.cpp" />
+    <ClCompile Include="Private\DEngine\Settings\ProjectSettings.cpp" />
+    <ClCompile Include="Private\DEngine\Systems\App\App.cpp" />
+    <ClCompile Include="Private\DEngine\Systems\App\IApp.cpp" />
+    <ClCompile Include="Private\DEngine\Systems\File\SystemFile.cpp" />
+    <ClCompile Include="Private\DEngine\Systems\Log\SystemLog.cpp" />
+    <ClCompile Include="Private\DEngine\SystemWindow\IWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Public\DEngine\Engine\IEngine.h" />
+    <ClInclude Include="Public\DEngine\Settings\ProjectSettings.h" />
+    <ClInclude Include="Public\DEngine\Systems\App\App.h" />
+    <ClInclude Include="Public\DEngine\Systems\App\AppSystem.h" />
+    <ClInclude Include="Public\DEngine\Systems\App\IApp.h" />
+    <ClInclude Include="Public\DEngine\Systems\File\FileSystem.h" />
+    <ClInclude Include="Public\DEngine\Systems\Log\LogSystem.h" />
+    <ClInclude Include="Public\DEngine\Systems\Window\IWindow.h" />
+    <ClInclude Include="Public\DEngine\Systems\Window\WindowSystem.h" />
+    <ClInclude Include="Public\DEngine\DEngine.h" />
+    <ClInclude Include="Public\DEngine\DSettings.h" />
+    <ClInclude Include="Public\DEngine\DSystems.h" />
   </ItemGroup>
 </Project>
